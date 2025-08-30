@@ -169,7 +169,7 @@ elif option == "Tour Info":
     st.write(f"You plan to stay for {days} days with a budget of {budget}.")
 
     if st.button('Generate Travel Guide'):
-        genai.configure(api_key="AIzaSyCaXS29dluxHJz382pdLu8maCM9HUMLCe8") 
+        genai.configure(api_key="ADD YOUR API KEY") 
         generation_config = {
             "temperature": 1,
             "top_p": 0.95,
@@ -264,4 +264,5 @@ elif option == "Contact":
     st.markdown(
         """Contact Number = 8979800176 for more information.
 """
+
     )
